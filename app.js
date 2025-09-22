@@ -31,3 +31,16 @@ while (numero<=12){
     console.log(numero);
     numero+=2;
 }
+
+for (let i=0; i<5; i++){
+    console.log(i);
+}
+
+let nombres = ["Ana", "Juana", "Carlos"];
+for (let i=0; i<nombres.length; i++){
+    console.log(nombres[i]);
+}
+
+nombres.forEach(function(nombre){
+    console.log(nombre);
+});
