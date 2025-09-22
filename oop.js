@@ -1,3 +1,10 @@
+function sayHello() {
+    console.log("Hello, World!");
+}
+
+let numero = 42;
+let nombres = ["Ana", "Juana", "Carlos"];
+
 let persona = {
     nombre: "Ana",
     edad: 25

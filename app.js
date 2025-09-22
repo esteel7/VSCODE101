@@ -32,14 +32,20 @@ while (numero<=12){
     numero+=2;
 }
 
+console.log("\nUsando for:");
 for (let i=0; i<5; i++){
     console.log(i);
 }
 
 let nombres = ["Ana", "Juana", "Carlos"];
+
+console.log("\nIterando sobre un array:");
+
 for (let i=0; i<nombres.length; i++){
     console.log(nombres[i]);
 }
+
+console.log("\nUsando forEach:");
 
 nombres.forEach(function(nombre){
     console.log(nombre);
