@@ -37,11 +37,12 @@ function crearPersona(nombre, edad){
     };
 }
 
-
+// Crear una nueva persona usando la función crearPersona (factory function)
 let juan = crearPersona("Juan", 30);
 console.log(juan.nombre);
 console.log(juan.edad);
 
+// Crear una nueva persona usando un constructor de clase
 class Persona {
     constructor(nombre, edad){
         this.nombre = nombre;
