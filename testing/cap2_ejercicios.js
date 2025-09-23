@@ -1,0 +1,57 @@
+/*  Ejercicio 1: Escribe un bucle que realice siete llamadas a console.log para mostrar el siguiente triángulo:
+    #
+    ##
+    ###
+    ####
+    #####
+    ######
+    #######
+*/
+
+let numero_filas = 7;
+let cadena = "";
+
+for (let i = 0; i < numero_filas; i++){
+    cadena += "#";
+    console.log(cadena);
+}
+
+/*  Ejercicio 2: Escribe un programa que use console.log para imprimir todos los números del 1 al 100, 
+    con dos excepciones. Para los números divisibles por 3, imprime "Fizz" en lugar del número, y para 
+    los números divisibles por 5 (y no por 3), imprime "Buzz" en su lugar.
+*/
+
+
+
+
+/*  Ejercicio 2.5: Cuando tengas eso funcionando, modifica tu programa para imprimir "FizzBuzz" para los 
+    números que son divisibles por 3 y 5 (y sigue imprimiendo "Fizz" o "Buzz" para los números que son 
+    divisibles sólo por uno de esos).
+*/
+
+
+
+
+/*  Ejercicio 3: Escribe un programa que cree una cadena que represente un tablero de 8x8, usando caracteres 
+    de salto de línea para separar las líneas. En cada posición del tablero hay un carácter de espacio o un 
+    carácter "#". Los caracteres deben formar un tablero de ajedrez.
+
+    Al pasar esta cadena a console.log debería mostrar algo como esto:
+
+     # # # #
+    # # # # 
+     # # # #
+    # # # # 
+     # # # #
+    # # # # 
+     # # # #
+    # # # # 
+*/
+
+
+
+
+/*  Ejercicio 3.5: Cuando tengas un programa que genere este patrón, define una variable size = 8 y cambia el 
+    programa para que funcione para cualquier size, generando un tablero con el ancho y alto dados.
+*/
+
