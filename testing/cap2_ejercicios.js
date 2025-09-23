@@ -16,21 +16,39 @@ for (let i = 0; i < numero_filas; i++){
     console.log(cadena);
 }
 
-/*  Ejercicio 2: Escribe un programa que use console.log para imprimir todos los números del 1 al 100, 
-    con dos excepciones. Para los números divisibles por 3, imprime "Fizz" en lugar del número, y para 
-    los números divisibles por 5 (y no por 3), imprime "Buzz" en su lugar.
+/*  Ejercicio 2: Escribe un programa que use console.log para imprimir todos los números 
+    del 1 al 100, con dos excepciones. Para los números divisibles por 3, imprime "Fizz" 
+    en lugar del número, y para los números divisibles por 5 (y no por 3), imprime "Buzz" 
+    en su lugar.
 */
+for (let i = 1; i <= 100; i++){
+    if (i % 3 == 0){
+        console.log("Fizz");
 
+    } else if ((i % 5 == 0)&&(i % 3 != 0)) {
+        console.log("Buzz");
+    } else {
+        console.log(i);
+    }
+}
 
-
-
-/*  Ejercicio 2.5: Cuando tengas eso funcionando, modifica tu programa para imprimir "FizzBuzz" para los 
-    números que son divisibles por 3 y 5 (y sigue imprimiendo "Fizz" o "Buzz" para los números que son 
-    divisibles sólo por uno de esos).
+/*  Ejercicio 2.5: Cuando tengas eso funcionando, modifica tu programa para imprimir "FizzBuzz"
+    para los números que son divisibles por 3 y 5 (y sigue imprimiendo "Fizz" o "Buzz" para 
+    los números que son divisibles sólo por uno de esos).
 */
+for (let i = 1; i <= 100; i++){
+    if ((i % 3 == 0) && (i % 5 == 0)){
+        console.log("FizzBuzz");
 
+    } else if (i % 3 == 0) {
+        console.log("Fizz");
 
-
+    } else if (i % 5 == 0){
+        console.log("Buzz");
+    } else {
+        console.log(i);
+    }
+}
 
 /*  Ejercicio 3: Escribe un programa que cree una cadena que represente un tablero de 8x8, usando caracteres 
     de salto de línea para separar las líneas. En cada posición del tablero hay un carácter de espacio o un 
