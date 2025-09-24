@@ -50,6 +50,18 @@ for (let i = 1; i <= 100; i++){
     }
 }
 
+/*
+La siguiente opción es más limpia y eficiente, ya que aprovecha el cortocircuito
+lógico (||) para imprimir el número sólo si la cadena está vacía.
+*/
+
+for (let i = 1; i <= 100; i++) {
+  let cadena = "";
+  if (i % 3 === 0) cadena += "Fizz";
+  if (i % 5 === 0) cadena += "Buzz";
+  console.log(cadena || i);
+}
+
 /*  Ejercicio 3: Escribe un programa que cree una cadena que represente un tablero de 8x8, usando caracteres 
     de salto de línea para separar las líneas. En cada posición del tablero hay un carácter de espacio o un 
     carácter "#". Los caracteres deben formar un tablero de ajedrez.
