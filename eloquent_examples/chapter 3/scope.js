@@ -5,4 +5,5 @@ if (true){
     var z = 30; // también global
 }
 
-console.log(z);
+//console.log(y); // No imprimirá que sólo es "visible" dentro del bloque if
+console.log(z); // Imprime sin problemas
